@@ -64,6 +64,8 @@ ul>li{
     padding-top: 30px;
     padding-bottom: 30px;
     text-align:justify;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 0,5 cm;
 }
 
 #szoveg h1{
@@ -93,4 +95,25 @@ ul>li{
 
     /*3. megoldás*/
     text-transform: uppercase;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.vastag{
+    font-weight: bold;
+}
+
+h4{
+    font-style: italic;
+}
+
+#parizs{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
