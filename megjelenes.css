@@ -1,0 +1,96 @@
+body{
+    background-color: green;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+p {
+    color: black;
+}
+
+#ananasz{
+    height: auto ;
+    /*width: 200px;*/
+    width: 30%;
+    float: left;
+}
+
+table{
+    /*úsztatás megszüntetése*/
+    /*float: none;
+    float: unset;*/
+    clear: both;
+    background-color: white;
+}
+
+table, td{
+    border: black, solid, 1px;
+    border-collapse: collapse;
+}
+
+#mosoly{
+    /*kép háttérként beállítása*/
+    background-image: url("smiley2.png");
+    /*teljes kép látszódjon, méret beállítás*/
+    background-size: contain;
+    /*nem ismétlödik*/
+    background-repeat: no-repeat;
+    /*háttérkép elhelyezkedése adott területen belül*/
+    background-position: center;
+}
+
+ol>li{
+    /*lista jellő elem kikapcsolása*/
+    list-style-type: none;
+    /*list-style-type: georgian;*/
+}
+
+ul>li{
+    /**/
+    /*lista jellő elem az kép legyen*/
+    list-style-image: url(smiley2.png);
+    /*lista jelölő eleme a lista érték területén belül legyen*/
+    list-style-position: inside; 
+}
+
+#szoveg{
+    background-color: white;
+    border: gray, solid 1px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align:justify;
+}
+
+#szoveg h1{
+    text-align: left;
+    color: black;
+}
+
+#szoveg a{
+    text-decoration: none;
+}
+
+#szoveg p{
+    /*Első sor behúzása*/
+    text-indent: 50px;
+}
+
+#kezdo{
+    /*1. megoldas*/
+    /*kiskapitális*/
+    /*font-variant: small-caps;*/
+    /*nagyméretű kezdőbetű*/
+    /*font-size: 130%;*/
+
+    /*2. megoldás
+    /*nagybetűsítés*/
+    /*text-transform: capitalize;*/
+
+    /*3. megoldás*/
+    text-transform: uppercase;
+}
